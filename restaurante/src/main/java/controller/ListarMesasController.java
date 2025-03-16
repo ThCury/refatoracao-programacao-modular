@@ -32,7 +32,7 @@ public class ListarMesasController {
         this.carregaTabelaMesas();
 
         this.view.getAddMesaViewBtn().addActionListener((e) -> {
-            new AddMesaController(this, null);
+            new AddMesaController(this);
         });
 
         this.view.getAtualizaTableBtn().addActionListener((e) -> {
