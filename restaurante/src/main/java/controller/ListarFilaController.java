@@ -32,7 +32,7 @@ public class ListarFilaController {
         });
         
         this.view.getAdicionarReqBtn().addActionListener((e) -> {
-            new AddReqController(this, null);
+            new AddReqController(this);
 
         });
     }
